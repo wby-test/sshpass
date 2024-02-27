@@ -1,0 +1,1 @@
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GOPROXY=https://goproxy.io go build -o sshtools main.go
